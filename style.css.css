@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  body{
+    background-image: url(https://images.wallpapersden.com/image/download/programming-coding-language_bGhpbm6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+    background-color: rgba(128,128,128);
+    font-family: 'roboto', sans-serif;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.83);
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  img.avatar{
+    border-radius:50%;
+    width: 240px;
+    height: 240px;
+    border:#DCDCDC solid 2px;
+    padding: 1.7px;
+  }
+  
+  h1{
+    font-size: 32px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 8px;
+   }
+  
+  .username{
+    font-family: 'roboto mono',monospace;
+    color: #7FFFD4;
+    font-size:20px;
+  }
+  
+  ul{
+  list-style: none;
+  margin:40px 0;
+  }
+  
+  ul li a {
+  height: 53px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(90, 200, 220, 0.33);;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  transition: background 400ms
+  }
+  
+  ul li a:hover{
+  background: #A9A9A9;  
+  }
+  
+  footer{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    opacity: 0.7;
+    transition: opacity 400ms;
+  }
+  
+  footer a {
+    color:white;
+  }
+  
+  footer:hover{
+    opacity: 1;
+  }
